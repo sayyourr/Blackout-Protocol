@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/AK/UI/DeathMenuStyle.uss?fileID=7433441132597879392&amp;guid=a30690663bcf41441af7fc5aea0fa608&amp;type=3#DeathMenuStyle" />
+    <ui:VisualElement name="death-root" class="death-root">
+        <ui:Label name="death-title" text="YOU DIED" class="death-title" />
+        <ui:Button name="restart-button" text="RESTART" class="death-button">
+            <ui:Label class="death-label" />
+        </ui:Button>
+        <ui:Button name="mainmenu-button" text="MAIN MENU" class="death-button">
+            <ui:Label class="death-label" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>
